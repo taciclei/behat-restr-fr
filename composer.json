@@ -1,21 +1,16 @@
 {
-    "name": "taciclei/behatRestFr",
-    "license": "BSD-2.0",
+    "name": "phpjit/behat-rest-fr",
+    "license": "MIT",
+    "description": "Behatch contexts",
+    "keywords": ["BDD", "Behat", "Symfony2", "Context"],
+    "type": "library",
     "require": {
         "php": ">=7.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "ext-json": "*",
-        "sensio/framework-extra-bundle": "4.0.*",
-        "symfony/asset": "4.3.*",
-        "symfony/console": "4.4",
-        "symfony/dotenv": "4.3.*",
         "symfony/expression-language": "4.4",
-        "symfony/flex": "^1.3.1",
-        "symfony/framework-bundle": "4.4",
-        "symfony/serializer": "4.4",
-        "symfony/validator": "4.4",
-        "symfony/yaml": "4.4"
+        "symfony/flex": "^1.3.1"
     },
     "require-dev": {
         "behat/behat": "^3.7",
