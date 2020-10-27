@@ -1,5 +1,5 @@
 {
-    "type": "taciclei/behatRestFr",
+    "name": "taciclei/behatRestFr",
     "license": "BSD-2.0",
     "require": {
         "php": ">=7.4",
@@ -83,7 +83,7 @@
     },
     "extra": {
         "symfony": {
-            "allow-contrib": "true"
+            "allow-contrib": false
         }
     }
 }
