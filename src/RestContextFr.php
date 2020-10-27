@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Tests\Behat;
+namespace RestContextFr;
 
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;

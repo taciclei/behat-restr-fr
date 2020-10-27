@@ -15,6 +15,4 @@ services:
     behatch.http_call.result_pool:
         class: Behatch\HttpCall\HttpCallResultPool
         public: false
-#    App\Tests\Behat\:
-#        resource: '../tests/Behat/*'
 
