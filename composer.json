@@ -5,10 +5,9 @@
     "keywords": ["BDD", "Behat", "Symfony2", "Context"],
     "type": "library",
     "require": {
-        "php": ">=5.3",
+        "php": ">=5.5",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "ext-json": "*",
         "ext-json": "*"
     },
     "require-dev": {
@@ -28,11 +27,7 @@
         "webmozart/assert": "^1.9"
     },
     "config": {
-        "optimize-autoloader": true,
-        "preferred-install": {
-            "*": "dist"
-        },
-        "sort-packages": true
+        "bin-dir": "bin/"
     },
     "autoload": {
         "psr-4": {
