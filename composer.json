@@ -5,10 +5,9 @@
     "keywords": ["BDD", "Behat", "Symfony2", "Context"],
     "type": "library",
     "require": {
-        "php": ">=5.3",
+        "php": ">=5.5",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "ext-json": "*",
         "ext-json": "*"
     },
     "require-dev": {
