@@ -27,9 +27,6 @@
         "friends-of-behat/symfony-extension": "^2.1",
         "webmozart/assert": "^1.9"
     },
-    "conflict": {
-        "symfony/symfony": "*"
-    },
     "config": {
         "bin-dir": "bin/",
         "sort-packages": true
@@ -48,11 +45,5 @@
     "extra": {
         "src-dir": "src",
         "config-dir": "config"
-    },
-    "scripts": {
-        "auto-scripts": {
-            "cache:clear": "symfony-cmd",
-            "assets:install %PUBLIC_DIR%": "symfony-cmd"
-        }
     }
 }
