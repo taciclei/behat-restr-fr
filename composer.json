@@ -45,7 +45,6 @@
             "App\\Tests\\": "tests/"
         }
     },
-    "target-dir": "src",
     "extra": {
         "src-dir": "src",
         "config-dir": "config",
