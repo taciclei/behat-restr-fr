@@ -8,7 +8,8 @@
         "php": ">=5.5",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "ext-json": "*"
+        "ext-json": "*",
+        "symfony/flex": "1.*"
     },
     "require-dev": {
         "symfony/flex": "1.*",
