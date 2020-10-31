@@ -45,12 +45,8 @@
             "App\\Tests\\": "tests/"
         }
     },
-    "target-dir": "src",
     "extra": {
         "src-dir": "src",
-        "config-dir": "config",
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
+        "config-dir": "config"
     }
 }
