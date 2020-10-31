@@ -11,6 +11,7 @@
         "ext-json": "*"
     },
     "require-dev": {
+        "symfony/flex": "^1.0",
         "behat/behat": "^3.7",
         "behat/mink": "^1.8",
         "behat/mink-browserkit-driver": "^1.3",
@@ -26,8 +27,12 @@
         "friends-of-behat/symfony-extension": "^2.1",
         "webmozart/assert": "^1.9"
     },
+    "conflict": {
+        "symfony/symfony": "*"
+    },
     "config": {
-        "bin-dir": "bin/"
+        "bin-dir": "bin/",
+        "sort-packages": true
     },
     "autoload": {
         "psr-4": {
@@ -40,8 +45,10 @@
             "App\\Tests\\": "tests/"
         }
     },
-
+    "target-dir": "src",
     "extra": {
+        "src-dir": "src",
+        "config-dir": "config",
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         }

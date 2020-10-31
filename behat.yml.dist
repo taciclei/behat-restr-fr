@@ -6,7 +6,7 @@ default:
             paths:
                 features: 'tests/Behat/features'
             contexts:
-                - App\Tests\Behat\features\bootstrap\RestContextFr
+                - RestContextFr\RestContextFr
                 - Behat\MinkExtension\Context\MinkContext
                 - behatch:context:browser
                 - behatch:context:debug

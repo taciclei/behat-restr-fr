@@ -2,7 +2,7 @@ services:
     _defaults:
         autowire: true
         autoconfigure: true
-    App\Tests\Behat\features\bootstrap\RestContextFr:
+    RestContextFr\RestContextFr:
         public: true
         arguments:
             $request: '@behatch.http_call.request'
