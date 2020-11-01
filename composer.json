@@ -48,6 +48,9 @@
     },
     "extra": {
         "src-dir": "src",
-        "config-dir": "config"
+        "config-dir": "config",
+        "symfony": {
+            "allow-contrib": "true"
+        }
     }
 }
