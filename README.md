@@ -1,7 +1,7 @@
 # Introduction au Behavior Driven Development
 ___________________________________________
 
-Le **Behavior Driven Development (BDD)** est un concept défini en 2003 par Dan North. traduction de tont article ici : http://philippe.poumaroux.free.fr/index.php?post/2012/02/06/Introduction-au-Behaviour-Driven-Developement
+Le **Behavior Driven Development (BDD)** est un concept défini en 2003 par Dan North. traduction de tont article [ici](http://philippe.poumaroux.free.fr/index.php?post/2012/02/06/Introduction-au-Behaviour-Driven-Developement)
 
 Il s’agit d’une continuité naturelle du **Test Driven Development (TDD)** dans le sens où il ne s’agit finalement que d’une formalisation d’un certain nombre de concepts auxquels aboutissent souvent les développeurs ayant acquis une bonne expérience de TDD.
 
@@ -117,4 +117,4 @@ Chaque scénario donnera un test, ou une série de tests regroupés selon les pr
         Et les nœuds JSON doivent contenir:
         | name | Behat |
 
-Source : https://blog.soat.fr/2011/06/introduction-au-behavior-driven-development/
+[Source](https://blog.soat.fr/2011/06/introduction-au-behavior-driven-development/)
